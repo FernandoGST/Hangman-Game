@@ -84,7 +84,7 @@ document.addEventListener('keypress', (event) => {
             updateMainMessage("Pres f to Start Over! :D");
             totalWins++;
             updateNumberOfWins(totalWins);
-            guessesRem = 0;
+            guessesRem = totalWins;
             updateGuessRem(guessesRem)
         }
         return;
