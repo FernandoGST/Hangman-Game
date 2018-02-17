@@ -1,0 +1,38 @@
+body {
+    background: url("../images/background.jpg") repeat;
+    color:whitesmoke;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.head {
+    text-align: center;
+}
+.game > div{
+    margin-top: 15px;
+}
+.numwin {
+    margin-left: 25%;
+}
+
+.word {
+    margin-left: 25%;
+}
+
+#neil {
+    float: right;
+    height: 15%;
+    width: 15%; 
+    margin-right:45px; 
+}
+
+.guessesrem {
+    margin-left: 25%;
+
+   
+}
+
+.lettersguessed {
+    margin-left: 25%;
+
+   
+}
