@@ -81,7 +81,7 @@ document.addEventListener('keypress', (event) => {
         updateGuessedLetters();
         if (!guessedLettersArr.find(el => { return el === '_' })) {
             alert("You Win!")
-            updateMainMessage("Pres f to Start Over! :D");
+            updateMainMessage("Press f to Start Over! :D");
             totalWins++;
             updateNumberOfWins(totalWins);
             guessesRem = totalWins;
@@ -98,6 +98,6 @@ document.addEventListener('keypress', (event) => {
         alert("You already used that letter!")
     }
     if (guessesRem <= 0)
-        updateMainMessage("You loose, Press F to pay respects.");
+        updateMainMessage("You lose, Press F to pay respects.");
 
 });
